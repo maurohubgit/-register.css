@@ -1,0 +1,102 @@
+
+
+*{
+
+    font-family: 'Nunito', sans-serif;
+   
+}
+
+label {
+    
+    display: block;
+    font-size: 19px;
+    color: rgb(6, 5, 77);
+}
+
+.label-eye {
+
+    display:inline
+    
+}
+
+.color {
+
+    display: block;
+    border: none;
+    padding: 5px;
+}
+
+
+input, textarea {
+
+    margin-bottom: 20px;
+    border: 2px solid rgb(11, 60, 116);
+    border-radius: 5px;
+    
+}
+
+.input-password {
+
+    display: block;
+}
+
+div {
+    margin-top: 30px;
+    border: 2px solid rgb(11, 60, 116);
+    padding: 15px ;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(47,47,187,1) 48%, rgba(2,0,36,1) 100%, rgba(2,0,36,1) 100%);
+}
+
+h1 {
+
+    
+    color: rgb(6, 5, 77);
+    position: absolute;
+    font-size: 19px;
+    margin-top: -33px;
+    background-color: rgb(248 251 253);
+    font-weight: normal;
+    border: 2px solid rgb(11,60,116);
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+
+}
+
+
+.reset-button {
+
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid rgb(11, 60, 116);
+
+}
+
+.reset-button:hover {
+    background-color: blue;
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid white;
+    color:white
+
+}
+
+.submit-button {
+
+    cursor:pointer;
+    border-radius: 5px;
+    border: 2px solid rgb(11, 60, 116);
+}
+
+.submit-button:hover {
+
+    background-color: blue;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid white;
+    color:white
+}
