@@ -1,6 +1,6 @@
 # Cadastro
 
- <img src="./Register.jpg" alt="model">
+ <img src="./Register.jpg" width="500px" alt="model" >
 
 > Resultado do projeto cadastro.
 ### Ajustes e melhorias
