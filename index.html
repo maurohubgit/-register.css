@@ -13,6 +13,7 @@
     <title>Cadastro de Cliente</title>
 </head>
 
+
 <body>
     <div>
         <h1>Cadastro</h1>
@@ -20,58 +21,58 @@
 
             <label for="nome">Nome:</label>
             <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
-            
+
 
             <label for="email">Email:</label>
             <input type="email" name="email" id="email" placeholder="Digite seu email" required>
-        
+
 
             <label for="idade">Idade:</label>
             <input type="number" name="idade" id="idade" min="12" required>
-            
+
 
             <label for="data-nascimento">Data de nascimento:</label>
             <input type="date" name="data-nascimento" id="data-nascimento">
-            
 
-            <label >Onde você possui conta:</label>
+
+            <label>Onde você possui conta:</label>
             <input type="checkbox" name="instagram" id="instagram">Instagram
             <input type="checkbox" name="facebook" id="facebook">Facebook
             <input type="checkbox" name="youtube" id="youtube">Youtube
-           
-            
+
+
 
 
             <label>Sexo:</label>
-            <input  class="radio-inputs" type="radio" name="genero" id="masculino">Masculino
-            <input  class="radio-inputs" type="radio" name="genero" id="feminino">Feminino
-            <input  class="radio-inputs" type="radio" name="genero" id="outro">Outro
-            
+            <input class="radio-inputs" type="radio" name="genero" id="masculino">Masculino
+            <input class="radio-inputs" type="radio" name="genero" id="feminino">Feminino
+            <input class="radio-inputs" type="radio" name="genero" id="outro">Outro
+
             <div class="color">
-            <label  class="label-eye"for="cor-olhos">Cor dos olhos:</label>
-            <input type="color" name="cor-olhos" id="cor-olhos">
-            </div>  
+                <label class="label-eye" for="cor-olhos">Cor dos olhos:</label>
+                <input type="color" name="cor-olhos" id="cor-olhos">
+            </div>
 
             <label for="bio">Biografia:</label>
             <textarea name="bio" id="bio" cols="30" rows="10" required></textarea>
-            
+
 
             <label for="foto">Foto de perfil:</label>
             <input type="file" name="foto" id="foto" accept="image/*" required>
-            
+
 
             <label for="telefone">Telefone:</label>
             <input type="tel" name="telefone" id="telefone" pattern="\([0-9]{2}\)[0-9]{5}-[0-9]{4}"
                 placeholder="(xx)xxxxx-xxxx" required>
-            
+
 
             <label for="perfil-facebook">Link do perfil do Facebook:</label>
             <input type="url" name="perfil-facebook" id="perfil-facebook">
-            
+
 
             <label for="senha">Senha:</label>
             <input class="input-password" type="password" name="senha" id="senha" minlength="6" maxlength="8" required>
-            
+
 
             <button class="reset-button" type="reset">Limpar</button>
             <button class="submit-button" type="submit">Enviar dados</button>
